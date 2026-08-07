@@ -16,6 +16,8 @@
 
 ---
 
+> **공지**: Argos Cloud(SaaS) 운영은 종료되었습니다. 이 레포는 오픈소스로 계속 사용 가능하며, [Self-hosting](#self-hosting) 섹션을 참고해 자체 호스팅하시면 됩니다.
+
 ## Quick Start
 
 ```bash
@@ -115,7 +117,7 @@ argos --api-url https://your-instance.example.com
 
 ## Links
 
-- Hosted: https://argos-ai.xyz
+- Hosted (운영 종료): https://argos-ai.xyz
 - Privacy: https://argos-ai.xyz/privacy
 - Architecture: [docs/code-architecture.md](docs/code-architecture.md)
 - PRD: [docs/prd.md](docs/prd.md)
