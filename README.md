@@ -1,3 +1,17 @@
+## 컨벤져스에서 쓰는 법 (convengers 브랜치 안내)
+
+팀이 Claude Code와 Codex를 어떻게 쓰는지(토큰, 자주 부르는 스킬, 막히는 곳)를 모아 보여 주는 분석 도구입니다. 원래 서비스(argos-ai.xyz)는 문을 닫았고 직접 서버를 띄워 써야 합니다.
+
+1. 서버: 이 저장소를 받아 `docker compose up` 으로 PostgreSQL과 앱을 띄웁니다.
+2. 각 PC: `npm install -g argos-ai` 뒤 프로젝트 폴더에서 `argos --api-url 우리서버주소` 를 한 번 실행합니다. Claude Code 훅이 자동으로 깔립니다.
+3. 개인정보 주의: 대화 전사가 서버로 올라가니 고객 자료가 오가는 프로젝트에는 켜지 않습니다.
+
+키트와 붙이는 자세한 자리는 [`convengers/연결.md`](convengers/연결.md) 에 적었습니다.
+
+원저작: VIBE MAFIA CLUB (https://github.com/vibemafiaclub/argos). 라이선스는 원본 README의 License 절(MIT) 그대로입니다. 아래 원문과 저작권 표기는 손대지 않았습니다.
+
+---
+
 <p align="center">
   <img src="packages/web/public/argos-logo.png" alt="Argos" width="120" />
 </p>
